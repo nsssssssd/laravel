@@ -17,7 +17,6 @@ class NoteFactory extends Factory
     public function definition(): array
     {
         return [
-            
             'note' => fake()->realText(2000),
             'user_id' => 1
 
